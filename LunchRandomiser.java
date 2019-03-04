@@ -23,11 +23,11 @@ public class LunchRandomiser {
     private MealType getTodaysMealType() {
         int randomValue = randomiser.nextInt(100);
         
-        if(randomValue < 10) {
+        if(randomValue < 4) {
             return MealType.TREAT;
-        } else if (randomValue < 30) {
+        } else if (randomValue < 26) {
             return MealType.NEW;
-        } else if (randomValue < 50) {
+        } else if (randomValue < 58) {
             return MealType.WARM;
         } else if (randomValue < 100) {
             return MealType.HEALTHY;
