@@ -17,3 +17,8 @@ randomly.
 badly.
 
 that's it.
+
+To Execute
+
+run "bash compile"
+run "java -jar target/lunch-randomiser.jar <home/office>"
