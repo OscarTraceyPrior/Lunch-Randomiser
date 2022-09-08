@@ -1,0 +1,12 @@
+Healthy : some Chicken Satay
+Healthy : a Ham Sandwich
+Healthy : Nothing
+Healthy : a Sainsbury's Sausage Roll
+Healthy : some Pork Pies
+Healthy : some Cocktail Sausages
+Warm : a Gregg's Pizza
+Warm : a Gregg's Sausage Roll
+Warm : a Gregg's Sausage, Bean, and Cheese Melt
+Treat : a McDonald's
+Treat : a KFC
+New : something new

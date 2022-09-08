@@ -1,0 +1,19 @@
+#!/bin/bash
+
+mkdir target
+mkdir target/src
+mkdir target/resources
+
+mkdir target/META-INF
+touch target/META-INF/MANIFEST.MF
+echo "Manifest-Version: 1.0" >> target/META-INF/MANIFEST.MF
+echo "Main-Class: src.Application" >> target/META-INF/MANIFEST.MF
+
+javac src/*.java
+
+mv src/*.class target/src
+cp resources/*.txt target/resources
+
+cd target
+
+jar cmf META-INF/MANIFEST.MF lunch-randomiser.jar src/*.class resources/*.txt

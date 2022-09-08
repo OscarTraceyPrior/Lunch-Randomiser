@@ -1,0 +1,14 @@
+HEALTHY : a Ham Wrap
+HEALTHY : a couple of Pork Pies
+HEALTHY : a Banana
+HEALTHY : some Cocktail Sausages
+HEALTHY : a Sausage Roll
+HEALTHY : a Peanut Butter Wrap or Sandwich
+WARM : some Beans and Sausage
+WARM : an Omelette
+WARM : some Oven Chips and Chicken
+WARM : some Buttered Potato Cakes
+WARM : a Mini Pizza
+TREAT : a McDonald's
+TREAT : a Chocolate Spread Butty or Wrap
+NEW : look up a recipe

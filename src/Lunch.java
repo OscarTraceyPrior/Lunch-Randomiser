@@ -1,3 +1,5 @@
+package src;
+
 public class Lunch{
 
     private MealType type;
