@@ -5,7 +5,7 @@ public class Lunch{
     
     public Lunch(String lunchString) {
         String[] components = lunchString.split(":");
-        this.type = MealType.get(components[0].trim());
+        this.type = MealType.get(components[0].trim().toUpperCase());
         this.name = components[1].trim();
         
         if(this.name == null || this.type == null) {
